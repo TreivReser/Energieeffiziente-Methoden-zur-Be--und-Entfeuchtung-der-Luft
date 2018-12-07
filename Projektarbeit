@@ -1,0 +1,48 @@
+\documentclass[12pt, a4paper]{tubsreprt}
+%\documentclass[ds,german,projektarbeit,pdf,cd,apacite]{unitext}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+
+\begin{document}
+%\geometry{left=3cm, right=3cm, top=1cm, bottom=2cm}
+%\RedeclareSectionCommand[beforeskip=-1sp]{chapter}
+\title{Energieeffiziente Verfahren zur Be- und Entfeuchtung von Luft}
+\author{Erik Müller, Hendrik Behm, Timo Schaper}
+\date{21. Januar 2019}
+\maketitle[default]
+
+\chapter{Einleitung/Abstract}
+Blindtext
+\chapter{Gründe für Entfeuchtung}
+Für die Entfeuchtung gibt es viele Anwendungsgebiete: von der Sicherstellung der Gesundheit von Mensch und Tier über die Bewahrung der in einem Labor nötigen Zustände, der Klimatisierung für bestimmte Gegenstände wie Essen in Supermärkten oder Bücher in der Bücherei bis hin zu sehr spezifischen Befeuchtungen wie z.B. in einer Brennstoffzelle. Für jeden Bereich wurden entweder über Langzeitstudien, empirisch oder über mathematische Modelle Wertebereiche für Temperatur und Luftfeuchte ermittelt.
+\chapter{Be- und Entfeuchtungsmethodiken}
+\section{Befeuchtung}
+\section{Entfeuchtung}
+In der Literatur wird grundsätzlich zwischen zwei Prozessmethoden der Entfeuchtung unterschieden, die in Kapitel 3.1 und 3.2 genauer beleuchtet werden sollen.
+%\begin{enumerate}
+%\item Auskondensation
+%\item Sorptionsprozesse
+%\end{enumerate}
+\pagebreak
+\subsection{Auskondesation durch Kühlung}
+Sinkt die Temperatur, so sinkt gleichzeitig der Sättigungsdampfdruck der feuchten Luft. Fällt dieser unter den Partialdruck, so kondensiert Wasser in entsprechender Menge aus. Das Entalpie-Feuchtebeladungs-Diagramm nach Richard Mollier veranschaulicht diesen Zusammenhang.
+\\\includegraphics[scale=0.57]{0001}
+\subsubsection{Kondensation an einer gekühlten Wand}
+\subsubsection{Kondensation per Verdampfung eines Kühlmittels}
+\subsection{Sorption zur Entfeuchtung}
+\subsubsection{Absorption}
+\subsubsection{Adsorption}
+\chapter{Modellierung}
+\section{Verdampfer}
+Für den Verdampfer bedarf es einer ausgeklügelten Modellierung.
+Es muss nämlich eine Massebilanz mit Wasser und kalter feuchter Luft als Ein- und noch feuchterer wärmerer Luft als Ausgangsmassestrom erstellt werden.
+%\[v=\SI{2.3}{\metre\per\second}\]
+\section{Wärmeübertrager}
+Der Wärmeübertrager
+\address{Hauptzentrale: Richterstraße 18 in 38106 Braunschweig}
+\makebackpage[plain]
+\end{document}
